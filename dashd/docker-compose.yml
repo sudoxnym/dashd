@@ -1,0 +1,13 @@
+services:
+  dashd:
+    image: sudoxreboot/dashd:latest
+    ports:
+      - "8085:8085"
+    volumes:
+      - dashd_data:/data
+    environment:
+      - DASHD_SECRET=${DASHD_SECRET:-}
+    restart: unless-stopped
+
+volumes:
+  dashd_data:
