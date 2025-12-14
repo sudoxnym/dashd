@@ -1,0 +1,20 @@
+# data
+*.db
+*.sqlite
+/data/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# docker
+.docker/
+
+# os
+.DS_Store
+Thumbs.db
+
+# env
+.env
+*.env
