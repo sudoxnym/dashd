@@ -81,3 +81,11 @@ docker run -d -p 8085:8085 dashd
 ## license
 
 mit
+
+---
+
+<div align="center">
+
+made by [sudoxnym](https://sudoxreboot.com) ⚡
+
+</div>
